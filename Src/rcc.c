@@ -36,6 +36,10 @@ void rcc_enable_clock(uint8_t module)
 			ADC2_CLOCK_ENABLE();
 			break;
 
+		case BASIC_TIMER_3:
+			RCC_TIM3_CLOCK_ENABLE();
+			break;
+
 		default:
 			break;
 	}

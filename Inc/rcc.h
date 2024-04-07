@@ -22,6 +22,7 @@
 #define RCC_TIM6_CLOCK_ENABLE() (*((uint32_t*)RCC_APB1ENR) |=(1<<4))
 #define RCC_TIM7_CLOCK_ENABLE() (*((uint32_t*)RCC_APB1ENR) |=(1<<5))
 #define RCC_TIM2_CLOCK_ENABLE() (*((uint32_t*)RCC_APB1ENR) |=(1<<0))
+#define RCC_TIM3_CLOCK_ENABLE() (*((uint32_t*)RCC_APB1ENR) |=(1<<1))
 
 // USARTs enable clock
 #define RCC_USART1_CLOCK_ENABLE() (*((uint32_t*)RCC_APB2ENR) |=(1<<14))

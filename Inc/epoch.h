@@ -3,6 +3,9 @@
 
 #include <stdint.h>
 #include <stdio.h>
+#include "nvic.h"
+#include "timx.h"
+#include "rcc.h"
 
 void epoch_init(void);
 void epoch_set_value(uint32_t new_value);
